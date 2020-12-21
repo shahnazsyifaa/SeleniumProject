@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="loginfail;user-akan-menginputkan-data-diri-pada-form-login" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="F:\Telkom\SEMESTER7\SQA\Selenium Project\Selenium-Training-master\Selenium-Training-master\features\loginFail.feature">
+            </property>
+        </properties>
+        <testcase name="Given Browse landing page case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.00088845">
+        </testcase>
+        <testcase name="And User click Masuk case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000202761">
+        </testcase>
+        <testcase name="And Website show modal case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000212201">
+        </testcase>
+        <testcase name="And User fill Username case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000192944">
+        </testcase>
+        <testcase name="And User fill Password case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000178596">
+        </testcase>
+        <testcase name="When User click button Masuk case loginFail" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000395706">
+        </testcase>
+        <testcase name="Then User gagal login" classname="loginfail;user-akan-menginputkan-data-diri-pada-form-login" time="0.000171422">
+        </testcase>
+    </testsuite>
+</testsuites>

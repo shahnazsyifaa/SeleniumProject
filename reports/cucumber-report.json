@@ -1,0 +1,126 @@
+[
+  {
+    "description": "  User tidak dapat melakukan login di Website E-LANG",
+    "elements": [
+      {
+        "id": "loginfail;user-akan-menginputkan-data-diri-pada-form-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User akan menginputkan data diri pada form login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Browse landing page case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 888450
+            },
+            "line": 7,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User click Masuk case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 202761
+            },
+            "line": 8,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Website show modal case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 212201
+            },
+            "line": 9,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User fill Username case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 192944
+            },
+            "line": 10,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User fill Password case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 178596
+            },
+            "line": 11,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User click button Masuk case loginFail",
+            "result": {
+              "status": "passed",
+              "duration": 395706
+            },
+            "line": 12,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User gagal login",
+            "result": {
+              "status": "passed",
+              "duration": 171422
+            },
+            "line": 13,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\step-definitions\\loginFail-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 10618859907
+            },
+            "hidden": true,
+            "match": {
+              "location": "Project\\Selenium-Training-master\\Selenium-Training-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "loginfail",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "loginFail",
+    "tags": [],
+    "uri": "F:\\Telkom\\SEMESTER7\\SQA\\Selenium Project\\Selenium-Training-master\\Selenium-Training-master\\features\\loginFail.feature"
+  }
+]
